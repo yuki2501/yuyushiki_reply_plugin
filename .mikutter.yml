@@ -1,0 +1,9 @@
+---
+slug: :yuyushiki_reply_plugin
+depends:
+  mikutter: 3.0.7
+  plugin: []
+version: '1.0'
+author: 
+name: "ゆゆ式リプライプラグイン"
+description: "ゆゆ式のセリフで返信できます"
