@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-Plugin.create (:yuyushiki_replay_plugin) do
+Plugin.create (:yuyushiki_reply_plugin) do
   command(:nantsutte,
           name: 'なんつってっつっちゃった',
           condition: lambda{ |opt| opt.messages.all?(&:repliable?) },
